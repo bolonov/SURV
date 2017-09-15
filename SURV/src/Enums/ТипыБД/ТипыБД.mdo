@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="afedc268-13e0-4f6d-9007-a087da606fd7">
+  <producedTypes>
+    <refType typeId="a74ad5fa-805d-4c63-aec9-7615fcdc2a1f" valueTypeId="86ab608d-e707-4980-be51-63edd663f2af"/>
+    <listType typeId="aea3bf3c-82f1-4e8a-9100-97999f6471c3" valueTypeId="144a5fa3-7850-4a5d-9d7c-6a918b4fd6c8"/>
+    <managerType typeId="8f0d5ebe-5906-4118-9d56-a03049827869" valueTypeId="bb26ac71-49e8-4d85-95da-ea16ca8f8898"/>
+  </producedTypes>
+  <name>ТипыБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы БД</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4d04285f-9acf-478d-a3f9-5a8db70f675d">
+    <name>ГолденГэйт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Голден гэйт</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="82c64396-c2d6-49ac-aa65-1c45170e07cf">
+    <name>Шелни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шелни</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

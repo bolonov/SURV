@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.Офисы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Отделы.StandardCommand.OpenList</commands>
+      <commands>Catalog.Пользователи.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ЗапросНаОтсутствие.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.УчетРабочегоВремени.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.РегламентированныйПроизводственныйКалендарь.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ОтслеживаниеСотрудников.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.СотрудникиСПравомУтвержденияСобственныхЗаявок.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelCreate</group>
+      <commands>Catalog.Офисы.StandardCommand.Create</commands>
+      <commands>Catalog.Отделы.StandardCommand.Create</commands>
+      <commands>Catalog.Пользователи.StandardCommand.Create</commands>
+      <commands>InformationRegister.УчетРабочегоВремени.StandardCommand.Create</commands>
+      <commands>InformationRegister.ЗапросНаОтсутствие.StandardCommand.Create</commands>
+      <commands>InformationRegister.РегламентированныйПроизводственныйКалендарь.StandardCommand.Create</commands>
+      <commands>InformationRegister.ОтслеживаниеСотрудников.StandardCommand.Create</commands>
+      <commands>InformationRegister.СотрудникиСПравомУтвержденияСобственныхЗаявок.StandardCommand.Create</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>CommonForm.ФормаКонстант.StandardCommand.Open</commands>
+      <commands>DataProcessor.ЗагрузкаДанныхИзСКУД.StandardCommand.Open</commands>
+      <commands>DataProcessor.ЗагрузкаПользователейИзAD.StandardCommand.Open</commands>
+      <commands>DataProcessor.ЗагрузкаКалендаря.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

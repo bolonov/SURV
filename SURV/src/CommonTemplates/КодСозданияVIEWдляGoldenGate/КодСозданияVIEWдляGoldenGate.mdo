@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9cb35140-61a1-4640-895d-dbdc8035f0ee">
+  <name>КодСозданияVIEWдляGoldenGate</name>
+  <synonym>
+    <key>ru</key>
+    <value>Код создания VIEW для golden gate</value>
+  </synonym>
+  <comment></comment>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

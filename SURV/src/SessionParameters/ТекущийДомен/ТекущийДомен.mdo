@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a7c7402-a02f-4795-98c4-db207f7f15ce">
+  <name>ТекущийДомен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Текущий домен</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>2</length>
+    </stringQualifiers>
+  </type>
+</mdclass:SessionParameter>

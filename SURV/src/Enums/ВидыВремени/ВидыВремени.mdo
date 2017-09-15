@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9d5009b-cc88-41d5-ba4a-df669f0e6cd8">
+  <producedTypes>
+    <refType typeId="3559c980-ecba-49fc-97af-172043741339" valueTypeId="77682dfb-65e0-487c-89c1-9ca0d91ce555"/>
+    <listType typeId="3e33403a-a555-4ec6-8702-df99c090bc9a" valueTypeId="26084f11-8330-42b3-bae8-66ac6dc3e7d3"/>
+    <managerType typeId="74558b6d-3575-48e7-acc0-7b71003d3c6a" valueTypeId="b0b35828-3121-45c8-ba55-103b3c918f47"/>
+  </producedTypes>
+  <name>ВидыВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды времени</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d5e8bb9b-44e5-41e4-85c8-b178405ac810">
+    <name>ЗарегистрированоПоКарте</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрировано по карте</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="6d07f2ce-4a1b-4282-8394-f791f1733210">
+    <name>УчестьВсеВремяКакРабочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учесть все время как рабочее</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="50fb58a0-04a0-4bc6-adae-faf65cc436b6">
+    <name>Отпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="b607fb44-1139-4bb7-a380-e86c3083e73e">
+    <name>ОтпускБезСохраненияЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск без сохранения з/п</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="1bd71e4b-e75e-4797-b797-3777912ca27e">
+    <name>ДополнительныйВыходной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный выходной</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="c29b956c-d574-4b33-ac27-65407ecaea1e">
+    <name>Болезнь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Болезнь</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="81eb8cc6-962b-4af4-bae0-2c8670975099">
+    <name>Командировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командировка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="62b8cdb8-7c6c-42f0-b901-714f0dc4600a">
+    <name>МестнаяКомандировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местная командировка</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="35d57ba1-a1df-457a-8412-f574cfecbfa0">
+    <name>Учеба</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учеба</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="3d97e4c5-d919-4ffe-b8d6-34aa837afe83">
+    <name>Личное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Личное</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="164b48a5-d39f-49dd-b138-c3f0831beb81">
+  <producedTypes>
+    <objectType typeId="1a916ae2-1dcc-4238-891c-2afd8a4c5299" valueTypeId="8de19638-e43a-4a05-bb55-e0bcb504abd5"/>
+    <managerType typeId="c31353bb-6843-4565-8146-651ef089b476" valueTypeId="da97473d-0352-4a6b-a03f-50e2beeb78e0"/>
+  </producedTypes>
+  <name>ОшибкиУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ошибки учета рабочего времени</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОшибкиУчетаРабочегоВремени.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="5b3e8d4e-4d9b-48e5-b91f-401abbd418f0">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

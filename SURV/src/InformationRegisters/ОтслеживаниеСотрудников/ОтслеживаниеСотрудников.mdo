@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3b56a14-30dd-4787-a242-216a1bf69aec">
+  <producedTypes>
+    <selectionType typeId="bf93d1d6-7292-4eed-9892-7f62e66fb777" valueTypeId="dcc1a385-d842-47be-bf0e-c8d1352078c1"/>
+    <listType typeId="efab5ed0-81a1-4516-896b-cd58b9caa31a" valueTypeId="9c56469f-d749-4631-8469-abd5aa6a8932"/>
+    <managerType typeId="685fdada-91ac-43a7-be2c-fbbad649bcc5" valueTypeId="6a0bd28a-b74f-4114-8ae5-8e04880c8476"/>
+    <recordSetType typeId="e34f92e7-acc1-42b6-acca-c60b78dff48e" valueTypeId="328d9c5f-946b-4e22-8472-03309c90ffd4"/>
+    <recordKeyType typeId="4a9a16ba-db26-49e3-9384-1fa985305425" valueTypeId="215e5218-4dea-479e-93ca-318b730a44ae"/>
+    <recordType typeId="205a3091-54ea-4188-82f6-3d3e4cf08ea5" valueTypeId="a32a4d48-28c9-41d3-b215-639b70b4bbe3"/>
+    <recordManagerType typeId="fee426ac-8caf-42a9-a4d9-11e72b62bebf" valueTypeId="4fe18b83-b4c2-477a-a5d2-bbde1fbf9556"/>
+  </producedTypes>
+  <name>ОтслеживаниеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отслеживание сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОтслеживаниеСотрудников.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="607f5eb5-264e-43b1-80fb-76ba8916a576">
+    <name>НаВход</name>
+    <synonym>
+      <key>ru</key>
+      <value>На вход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="668d8645-a2ec-460f-b465-786e0966e865">
+    <name>НаВыход</name>
+    <synonym>
+      <key>ru</key>
+      <value>На выход</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4812cfa3-57f8-40e6-bb09-dcc2349f0269">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="90d7a7e1-7e15-4648-8788-99356af64d90">
+    <name>ПользовательОтслеживания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отслеживаемый пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8382d280-9b9e-4313-8d1d-039cb1e4de12">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="97e5ce9a-1862-476f-b095-f20f84dedd47">
+    <name>ФормаМоиЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма мои заявки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

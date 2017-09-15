@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9f2194c-a3db-4b4d-8981-fbdcbbb654ef">
+  <producedTypes>
+    <managerType typeId="e36fd36f-313a-431e-aad2-8bdd0b8e3ea4" valueTypeId="8c608222-86a1-4ecf-9180-541aaeecd318"/>
+    <valueManagerType typeId="b10eeb59-0418-4700-8733-cb14851fb90c" valueTypeId="15b1fb31-9fe7-4f5b-9eb2-f824b8d3b0ca"/>
+  </producedTypes>
+  <name>ЛогинSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин SMTP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

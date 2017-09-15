@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7d643abf-15b6-484b-883e-cd0666b0bdd3">
+  <producedTypes>
+    <managerType typeId="7585e271-5125-4097-aaf7-a7f2dce449bc" valueTypeId="266723c6-7fa8-4f70-823c-800388ecd653"/>
+    <valueManagerType typeId="40a06ed2-a179-4504-8ea8-435f161c9469" valueTypeId="e8ea1eaf-5821-4e05-bdd9-1e25e658451a"/>
+  </producedTypes>
+  <name>POP3ПередSMTP</name>
+  <synonym>
+    <key>ru</key>
+    <value>POP3 перед SMTP</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

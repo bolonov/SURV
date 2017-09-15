@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3bfa17e5-e874-4444-92fc-a9759dc8cbcd">
+  <name>ЗаявкиНаУтверждение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки на подпись</value>
+  </synonym>
+  <comment></comment>
+  <group>CommandGroup.ГруппаДополнительно</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36590239-e819-4bf2-bb66-003e03bbdd7a">
+  <producedTypes>
+    <selectionType typeId="1cf2cb1c-a006-4b60-b417-ee13fac3ac0a" valueTypeId="e0bd31f1-204f-4f1e-9ef4-d441179876c6"/>
+    <listType typeId="c960fc48-14aa-4c98-a0ba-d0482fc3b26b" valueTypeId="39a1aa47-88ba-4627-859c-bb7f33e4fa5c"/>
+    <managerType typeId="cd791915-b913-4866-ae52-6d53a502d21b" valueTypeId="add79cb9-2d38-4ec8-a27e-b1a1d976d762"/>
+    <recordSetType typeId="aac9402e-963b-4958-a307-ed7c0373c2aa" valueTypeId="ada64322-4321-428d-b60e-89fb81c8f3c1"/>
+    <recordKeyType typeId="fe6d9494-e0c9-47b8-aef2-71f3c278b386" valueTypeId="3a16d7bb-15e9-4d8e-aded-b1e27624ab3a"/>
+    <recordType typeId="9c327076-ca82-498f-b7b0-d12baeb050c9" valueTypeId="68ec6552-df83-4ddb-a7e6-c3c7dad97c77"/>
+    <recordManagerType typeId="73eb6f45-8070-4e11-a732-a6e626a08b47" valueTypeId="de1682a3-977a-41a2-bf38-e3dde78b9470"/>
+  </producedTypes>
+  <name>СотрудникиСПравомУтвержденияСобственныхЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Утверждение собственных заявок</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="c03d1dbb-2b1e-4812-8084-b5775c789987">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

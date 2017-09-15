@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d149e261-7383-4611-bd77-bb783da7baaa">
+  <producedTypes>
+    <selectionType typeId="02991b6e-9dc3-4cce-adf8-202f2f5bcdc5" valueTypeId="8bfb7b82-d384-426c-aefb-54da3f37126e"/>
+    <listType typeId="a209b6d0-6a9f-4aca-9e57-d8f63c6f02db" valueTypeId="30bba715-197d-49e8-99be-424d3aa6ceb0"/>
+    <managerType typeId="f0fe3d2b-9119-4364-952a-24ff5eed7a79" valueTypeId="43e19b91-13a7-4ea7-892e-4825148512a2"/>
+    <recordSetType typeId="c3cc2716-2ceb-4ba3-8dc4-4dd857c278e5" valueTypeId="6c9ebdc8-0fef-426d-95c5-fa19c416d288"/>
+    <recordKeyType typeId="aad956f0-f9ee-4078-92d5-355229a37780" valueTypeId="54312b7a-e002-4063-87d6-91e53f4e69ec"/>
+    <recordType typeId="5a6bae77-7c03-433d-91db-5088174342e9" valueTypeId="d7eed43f-74af-405d-985c-3f2cf2974875"/>
+    <recordManagerType typeId="b05745fa-663e-4c51-984a-91a329538d38" valueTypeId="540e91a6-3ff5-4e5d-b3fd-a48d0bcc0536"/>
+  </producedTypes>
+  <name>УчетРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет рабочего времени</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="e9cebab6-13b1-489a-92a9-56c3573973d4">
+    <name>ВидВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид времени</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыВремени</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="fb71b9b5-e793-4d29-96ed-c6db11f683da">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <resources uuid="e595fb26-caae-4b33-a21a-74cbc5e50cbe">
+    <name>Офис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Офис</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Офисы</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d64c2838-50e6-4eb6-9a2d-e8674c7fdce4">
+    <name>ПользовательПодписант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь подписант</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d53d3fbc-81bf-4eae-bf4a-8818641130ee">
+    <name>Дверь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дверь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="edcff3cb-b66f-455d-84a4-fb823e807bfd">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="cf5ab0f7-a102-4199-a2dc-2f8faa0d9f75">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0c4c3fff-dbf4-4610-89eb-b6a1e2d2d91e">
+    <name>ФормаКтоВОфисе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма кто в офисе</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a800f5ca-f473-41fe-b6e4-39e57b3eb2df">
+    <name>ФормаИсторияЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма история за период</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

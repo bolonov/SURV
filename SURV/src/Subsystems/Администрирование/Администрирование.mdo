@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1f71a09-8fab-4780-8aa7-1000621a5227">
+  <name>Администрирование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Администрирование</value>
+  </synonym>
+  <comment></comment>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Офисы</content>
+  <content>DataProcessor.ЗагрузкаПользователейИзAD</content>
+  <content>Catalog.Пользователи</content>
+  <content>DataProcessor.ЗагрузкаДанныхИзСКУД</content>
+  <content>CommonForm.ФормаКонстант</content>
+  <content>InformationRegister.УчетРабочегоВремени</content>
+  <content>InformationRegister.ЗапросНаОтсутствие</content>
+  <content>InformationRegister.РегламентированныйПроизводственныйКалендарь</content>
+  <content>InformationRegister.ОтслеживаниеСотрудников</content>
+  <content>InformationRegister.СотрудникиСПравомУтвержденияСобственныхЗаявок</content>
+  <content>DataProcessor.ЗагрузкаКалендаря</content>
+  <content>Catalog.Отделы</content>
+  <content>CommonCommand.ПолучитьНавигационнуюСсылкуИБ</content>
+</mdclass:Subsystem>

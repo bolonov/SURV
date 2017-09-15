@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc10af4f-788b-4895-a3a9-0a34ec5660ca">
+  <producedTypes>
+    <refType typeId="e1aab737-1f80-400c-b3ed-bca73ce49ae6" valueTypeId="805d8c7e-0165-404d-ade4-cc85c28e1986"/>
+    <listType typeId="37314539-3f0e-4fcf-a816-5cd1f679aaca" valueTypeId="7d719fb5-701a-4924-8320-323d4fe1d68b"/>
+    <managerType typeId="3cd58442-ed1b-4d3a-b518-89fc63512cb9" valueTypeId="926fd9a4-acf3-4466-bc77-7982dbc2707e"/>
+  </producedTypes>
+  <name>СтатусыЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок</value>
+  </synonym>
+  <comment></comment>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6f011e9d-97af-438b-b24d-1297443b69dd">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="21def29b-6397-48f7-8bea-2a0e7d9b1b34">
+    <name>Одобрен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Одобрен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+  <enumValues uuid="921c04db-5397-4c35-8817-1f22a3facdfc">
+    <name>Отклонен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонен</value>
+    </synonym>
+    <comment></comment>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c896b5a-2557-4b9d-b877-570840755436">
+  <name>Справка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка</value>
+  </synonym>
+  <comment></comment>
+  <group>CommandGroup.ГруппаДополнительно</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

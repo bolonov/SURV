@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="318c6c59-9b38-4109-aaa0-fce503d25a4c">
+  <producedTypes>
+    <selectionType typeId="69ef736d-d1cf-4b02-b5df-2d1a6ae50c1e" valueTypeId="f2cfcc67-6ac1-4ed1-a9b8-1b994bfa64b6"/>
+    <listType typeId="0792ecab-1db1-491c-832a-91bd6e432587" valueTypeId="ca471b87-600e-4862-b21b-665f132b8133"/>
+    <managerType typeId="02740168-cb4a-4709-82e7-26b51d1d9067" valueTypeId="f35581b5-d7d6-4217-b144-97442157198f"/>
+    <recordSetType typeId="f79d5bec-2f04-4263-bf48-74043bdca6cf" valueTypeId="b0f70984-f2f0-49ba-820b-be1af11101dd"/>
+    <recordKeyType typeId="1af975e5-1ca1-4349-9fa4-7f2e3e7a1b20" valueTypeId="e88f95cc-4fdc-48fb-8491-d59ece2deda2"/>
+    <recordType typeId="090e4644-d39b-4d52-82b5-0acdc6bf3829" valueTypeId="90b8db6a-71d1-4b01-8c7d-2d1729c323fa"/>
+    <recordManagerType typeId="8dad7327-1727-4df0-a802-c7c4cee85431" valueTypeId="6859ac0b-0c1f-420b-9b4f-02f74c9cd245"/>
+  </producedTypes>
+  <name>РегламентированныйПроизводственныйКалендарь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственный календарь</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultListForm>InformationRegister.РегламентированныйПроизводственныйКалендарь.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <name>Active</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>LineNumber</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Recorder</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <name>Period</name>
+    <comment></comment>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="13d46c8a-88e9-4d0d-9d5d-adf9be18eaff">
+    <name>Пятидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пятидневка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9bf4346e-df24-41ce-9264-19191bf9edd7">
+    <name>Шестидневка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шестидневка</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="94d897f9-7d2d-4923-83b4-f8d23af2b968">
+    <name>КалендарныеДни</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарные дни</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9fb0b29b-b12d-4bfb-8f8a-25cb42e47d27">
+    <name>ВидДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дня</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыДнейПроизводственногоКалендаря</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="658d9192-4464-47cf-bec3-24a05c0837ca">
+    <name>Домен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Домен</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>2</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7c103985-ac36-44db-a841-76595e5d6016">
+    <name>ДатаКалендаря</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата календаря</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="6e8e9ba4-bf4b-4758-b839-16d86bdc6930">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6fc2d6d5-1ab5-4ba1-8d06-7618ceac145a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="7a014edb-a9bd-475b-a8df-b82418256aec">
+    <name>ПроизводственныйКалендарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПроизводственныйКалендарь</value>
+    </synonym>
+    <comment></comment>
+  </templates>
+</mdclass:InformationRegister>

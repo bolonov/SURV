@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eea42af8-f24f-4cad-8be2-f29800c529ce">
+  <producedTypes>
+    <managerType typeId="cb0be0b9-860c-4771-9b2d-0faaca410a49" valueTypeId="68323fd8-ce70-46de-a8b4-cccafe7d906c"/>
+    <valueManagerType typeId="1aeff444-1f86-4575-b288-8514a34463a6" valueTypeId="383156d3-5195-43db-8835-a6ddc9dda49d"/>
+  </producedTypes>
+  <name>ПарольPOP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пароль POP3</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

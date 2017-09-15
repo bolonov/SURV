@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="042f6be5-f5b7-4d09-ab8f-d6f2b31f8667">
+  <name>ОтслеживаниеСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отслеживание сотрудников</value>
+  </synonym>
+  <comment></comment>
+  <group>CommandGroup.ГруппаДополнительно</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

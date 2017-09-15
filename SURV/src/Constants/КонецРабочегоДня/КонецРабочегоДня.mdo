@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c87429ea-4d01-4968-a99f-94b500f97d48">
+  <producedTypes>
+    <managerType typeId="763765c6-0336-44d0-b524-25898f730669" valueTypeId="57740451-400c-421f-b7c7-55ce975d5fcd"/>
+    <valueManagerType typeId="de1a8531-f0d7-4e5c-90e0-eac67587e860" valueTypeId="5381ab41-9165-4826-9951-accb54e409a3"/>
+  </producedTypes>
+  <name>КонецРабочегоДня</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конец 8-ми часового рабочего дня</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Time</dateFractions>
+    </dateQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

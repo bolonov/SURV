@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5503ea37-6d71-4a4d-8d7f-b1ed55c10317">
+  <producedTypes>
+    <managerType typeId="636268f8-2070-46d3-be3f-7a9b8244643a" valueTypeId="9f101827-a6ad-4dd8-a109-97b96a24f0e0"/>
+    <valueManagerType typeId="f135fbe8-1ec4-4b54-9c90-bcf7b75faf2c" valueTypeId="f71d05dc-0471-4306-9d23-9e6697bc1384"/>
+  </producedTypes>
+  <name>ЛогинPOP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логин POP3</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

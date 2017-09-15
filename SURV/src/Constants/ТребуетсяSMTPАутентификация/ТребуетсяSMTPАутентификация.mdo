@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c33d9b5-e596-4132-948e-1825388202ec">
+  <producedTypes>
+    <managerType typeId="7552c88e-600f-4466-91b9-7fd57b50e5d0" valueTypeId="add93612-6afa-419e-bd82-146e97581a29"/>
+    <valueManagerType typeId="bcff487f-9b57-4761-b25a-53815184ac6f" valueTypeId="0d2b6c9e-7665-4aa8-9d39-1f4bfc5bcaa6"/>
+  </producedTypes>
+  <name>ТребуетсяSMTPАутентификация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Требуется SMTP Аутентификация</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.4">
+	<ExternalDataSource uuid="da47b7df-c0ed-4bb0-bd8b-5cebb2f29c3c">
+		<InternalInfo>
+			<xr:GeneratedType name="ExternalDataSourceManager.Шелни" category="Manager">
+				<xr:TypeId>55ccd664-b695-412e-90b8-5f0b2a0fb17c</xr:TypeId>
+				<xr:ValueId>ef41a6b9-5af7-42ad-904a-f637526dc30a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceTablesManager.Шелни" category="TablesManager">
+				<xr:TypeId>93b3ded5-6d66-4b9e-a92c-64a90af3e8f0</xr:TypeId>
+				<xr:ValueId>36b95e2e-c331-476f-9a0a-2f857935a56f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="ExternalDataSourceCubesManager.Шелни" category="CubesManager">
+				<xr:TypeId>7c5d6ab7-1fb3-47ca-b390-007ad21ce06a</xr:TypeId>
+				<xr:ValueId>f63f8324-ffc3-49fe-9c50-55e5eab5f43e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>Шелни</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Шелни</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DataLockControlMode>Automatic</DataLockControlMode>
+		</Properties>
+		<ChildObjects>
+			<Table>ACCESS</Table>
+			<Table>ACCESSNAME</Table>
+			<Table>ACCESSUSER</Table>
+			<Table>CARD</Table>
+			<Table>CARDIDX</Table>
+			<Table>CARDINDEV</Table>
+			<Table>CONFRR</Table>
+			<Table>CONFZR</Table>
+			<Table>DEVGROUP</Table>
+			<Table>DEVGROUPUSER</Table>
+			<Table>DEVICE</Table>
+			<Table>DEVTYPE</Table>
+			<Table>EVENTCROSS</Table>
+			<Table>EVENTS</Table>
+			<Table>EVENTS2</Table>
+			<Table>EVENTTYPE</Table>
+			<Table>EVENTUSER</Table>
+			<Table>GUEST</Table>
+			<Table>GUESTBLACKLIST</Table>
+			<Table>GUESTORDER</Table>
+			<Table>GUIDE</Table>
+			<Table>HOLIDAY</Table>
+			<Table>IMAGE</Table>
+			<Table>IMAGELINK</Table>
+			<Table>OBJECT</Table>
+			<Table>ORGANIZATION</Table>
+			<Table>ORGANIZATIONUSER</Table>
+			<Table>PEOPLE</Table>
+			<Table>PLANS</Table>
+			<Table>SERVER</Table>
+			<Table>SETTING</Table>
+			<Table>TIMEZONE</Table>
+			<Table>VIDEO</Table>
+			<Table>ZONES</Table>
+			<Table>ZONETYPE</Table>
+		</ChildObjects>
+	</ExternalDataSource>
+</MetaDataObject>

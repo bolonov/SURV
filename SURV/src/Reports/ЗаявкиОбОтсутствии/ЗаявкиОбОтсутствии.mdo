@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bde78b7-9116-4e6c-b179-4fa3766eaef3">
+  <producedTypes>
+    <objectType typeId="215a6737-d302-4ca0-ad1c-67c555495a96" valueTypeId="35c1060e-523a-4720-9cea-94bdc7fcbc8a"/>
+    <managerType typeId="4667acdd-48d7-4250-a6a2-9f3ef76af529" valueTypeId="459f3f86-0a23-4df7-a292-71239a4df234"/>
+  </producedTypes>
+  <name>ЗаявкиОбОтсутствии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заявки об отсутствии</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗаявкиОбОтсутствии.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="3a744221-99c0-4685-a0cd-6eceedbd86b4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <comment></comment>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

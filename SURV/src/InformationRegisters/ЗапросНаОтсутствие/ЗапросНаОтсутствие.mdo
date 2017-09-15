@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f2222453-5933-4b82-8f2f-30e66a6c9aba">
+  <producedTypes>
+    <selectionType typeId="29d8b9e6-82b6-4f10-be6f-92e4ec472be3" valueTypeId="06296131-a0d4-47f3-a933-b3446a8626b3"/>
+    <listType typeId="c5ba67fc-b074-44de-a9af-f79fbc64cc15" valueTypeId="2f96c2b4-8c68-4cf5-a520-d60758e75d90"/>
+    <managerType typeId="efe6b77f-32c6-4d2d-a8f4-1fb49d4647ef" valueTypeId="c68b0e6d-3e65-4e03-812e-fe784610b554"/>
+    <recordSetType typeId="ef4930cb-b6fc-44ba-963c-ff5a838752fe" valueTypeId="62cc7e0c-73c2-4c49-a5ea-5949fc7fa737"/>
+    <recordKeyType typeId="158bb1f8-ddd9-45c9-8729-11da0b1cd1e7" valueTypeId="e0fd6726-14ec-489c-a9f7-442cbf4d7a78"/>
+    <recordType typeId="906725c5-0b07-4d70-9366-8b3f024fe67f" valueTypeId="ab088c67-28ee-4c6b-986d-4279cfaca0bd"/>
+    <recordManagerType typeId="c2d81719-c1db-460e-abdf-5a6f5b70db44" valueTypeId="b951181b-a69a-41f9-84c0-2d93d6354f2d"/>
+  </producedTypes>
+  <name>ЗапросНаОтсутствие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запрос на отсутствие</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ЗапросНаОтсутствие.Form.ФормаПросмотра</defaultRecordForm>
+  <defaultListForm>InformationRegister.ЗапросНаОтсутствие.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="aeac50cc-f5b0-4fed-8586-4ad835d6d9e2">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.СтатусыЗаявок</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c268328e-7a2e-4d89-b047-035a5d729b8d">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="41c9a9e1-6c57-4da4-affe-6d98369ef40c">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4f26dc55-0fb8-45d1-821b-a6aa6732c251">
+    <name>ПользовательПодписант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь-подписант</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5bb6d66f-7d2d-49cf-ae94-803a799cbd33">
+    <name>ВидОтсутствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отсутствия</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>EnumRef.ВидыВремени</types>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="03383f9a-1917-42e2-baaa-4fa8d5007b0a">
+    <name>ПериодНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период начала</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2f5b75ec-deb1-4205-a408-aa16dceef774">
+    <name>ПериодОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период окончания</value>
+    </synonym>
+    <comment></comment>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <mask></mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="03bf8f40-e84c-4e1c-abef-05abf90df54b">
+    <name>ФормаВвода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма ввода</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6fa7f9cd-3a9b-40ae-b6c8-faca9253e977">
+    <name>ФормаПросмотра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма просмотра</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dee1db74-df67-4ee0-bf00-5eed80757ad0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1141899e-b8e3-47cc-a104-28a460b4f2fe">
+    <name>ФормаМоиЗаявки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма мои заявки</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d4f9a3ce-98a5-4297-85e7-6dd8da1feffa">
+    <name>ФормаЗаявкиНаПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма заявки на утверждение</value>
+    </synonym>
+    <comment></comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

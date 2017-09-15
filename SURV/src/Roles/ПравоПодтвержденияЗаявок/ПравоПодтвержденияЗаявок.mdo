@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="394b94f2-7b53-44e0-b180-a28308d656eb">
+  <name>ПравоПодтвержденияЗаявок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Право подтверждения заявок</value>
+  </synonym>
+  <comment></comment>
+</mdclass:Role>

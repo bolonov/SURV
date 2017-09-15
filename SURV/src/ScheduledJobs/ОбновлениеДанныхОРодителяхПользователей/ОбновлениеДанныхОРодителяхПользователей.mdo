@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5721478a-a2a5-4db5-b9df-4c1dadedc8a0">
+  <name>ОбновлениеДанныхОРодителяхПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление данных о руководителях пользователей</value>
+  </synonym>
+  <comment></comment>
+  <methodName>CommonModule.Сервер.ОбновитьДанныеОРодителяхПользователей</methodName>
+  <description></description>
+  <key></key>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

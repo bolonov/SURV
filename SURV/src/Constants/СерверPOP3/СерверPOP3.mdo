@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2019b13d-37c1-4b5c-a900-ec5b502c231d">
+  <producedTypes>
+    <managerType typeId="07609f5d-1ad3-4670-8f78-d66e08fdccb2" valueTypeId="d53d2402-07c5-4867-ae80-d3a950e6f169"/>
+    <valueManagerType typeId="085b14b2-faf8-47e4-b945-36bec3c8600f" valueTypeId="2b31e2fc-403e-41ff-93e1-5e3f4c7d5590"/>
+  </producedTypes>
+  <name>СерверPOP3</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сервер POP3</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>50</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

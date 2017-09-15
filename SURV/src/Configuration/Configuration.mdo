@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d25b998f-75a0-459a-8206-f130ccf6c3df">
+  <name>СистемаУчетаРабочегоВремени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Система учета рабочего времени</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="c6d615a0-196c-4089-9afa-5cd95dabb7d0"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="68f58ac1-cade-40dd-9c7d-ee4165f49e05"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="338d4c93-2064-4b6b-878b-22dcd4aee704"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="72bd280c-f679-4ae5-85ab-2cca139befc6"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="7326fa4e-d693-4639-9305-72a9f402c3d1"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="2eaa9718-a027-49b5-b6c0-2c4aeac203da"/>
+  <namePrefix></namePrefix>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor>ООО Миле СНГ</vendor>
+  <version>2.3.3</version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>СУРВ</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Система учета рабочего времени</value>
+  </detailedInformation>
+  <copyright>
+    <key>ru</key>
+    <value>ООО Миле СНГ</value>
+  </copyright>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousExtensionAndAddInCallUseMode>DontUse</synchronousExtensionAndAddInCallUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.8</compatibilityMode>
+  <defaultConstantsForm>CommonForm.ФормаКонстант</defaultConstantsForm>
+  <languages uuid="706b1a11-9b3b-4b52-a157-3c0e23e91861">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Кадры</subsystems>
+  <subsystems>Subsystem.Отчеты</subsystems>
+  <subsystems>Subsystem.Прочее</subsystems>
+  <commonPictures>CommonPicture.Коллекция1</commonPictures>
+  <commonPictures>CommonPicture.Коллекция2</commonPictures>
+  <sessionParameters>SessionParameter.ТекущаяДата</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийОфис</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийДомен</sessionParameters>
+  <sessionParameters>SessionParameter.НавигационнаяСсылкаИБ</sessionParameters>
+  <roles>Role.Кадровик</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.Пользователь</roles>
+  <roles>Role.ПравоПодтвержденияЗаявок</roles>
+  <roles>Role.Табельщик</roles>
+  <commonTemplates>CommonTemplate.КодСозданияVIEWдляGoldenGate</commonTemplates>
+  <commonTemplates>CommonTemplate.ТекстОтветаТехПоддержкиGoldenGate</commonTemplates>
+  <commonModules>CommonModule.Клиент</commonModules>
+  <commonModules>CommonModule.Сервер</commonModules>
+  <scheduledJobs>ScheduledJob.ЗагрузкаПользователейИзAD</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ЗагрузкиСобытийИзСКУД</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбновлениеДанныхОРодителяхПользователей</scheduledJobs>
+  <commonCommands>CommonCommand.КтоВОфисе</commonCommands>
+  <commonCommands>CommonCommand.МоиЗаявки</commonCommands>
+  <commonCommands>CommonCommand.ЗаявкиНаУтверждение</commonCommands>
+  <commonCommands>CommonCommand.ОтслеживаниеСотрудников</commonCommands>
+  <commonCommands>CommonCommand.Справка</commonCommands>
+  <commonCommands>CommonCommand.ПолучитьНавигационнуюСсылкуИБ</commonCommands>
+  <commandGroups>CommandGroup.ГруппаДополнительно</commandGroups>
+  <constants>Constant.POP3ПередSMTP</constants>
+  <constants>Constant.АдресЭлектроннойПочты</constants>
+  <constants>Constant.ВремяОжиданияСервера</constants>
+  <constants>Constant.КонецРабочегоДня</constants>
+  <constants>Constant.ЛогинPOP3</constants>
+  <constants>Constant.ЛогинSMTP</constants>
+  <constants>Constant.НачалоРабочегоДня</constants>
+  <constants>Constant.ОтправлятьУведомленияПоПочте</constants>
+  <constants>Constant.ПарольPOP3</constants>
+  <constants>Constant.ПарольSMTP</constants>
+  <constants>Constant.ПериодСчитыванияДанныхИзСКУД</constants>
+  <constants>Constant.ПортPOP3</constants>
+  <constants>Constant.ПортSMTP</constants>
+  <constants>Constant.СерверPOP3</constants>
+  <constants>Constant.СерверSMTP</constants>
+  <constants>Constant.ТребуетсяSMTPАутентификация</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <catalogs>Catalog.Отделы</catalogs>
+  <catalogs>Catalog.Офисы</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
+  <enums>Enum.ВидыВремени</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.Периодичность</enums>
+  <enums>Enum.СтатусыЗаявок</enums>
+  <enums>Enum.ТипыБД</enums>
+  <reports>Report.ЗаявкиОбОтсутствии</reports>
+  <reports>Report.ОтработанноеВремя</reports>
+  <reports>Report.ОшибкиУчетаРабочегоВремени</reports>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзСКУД</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКалендаря</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаПользователейИзAD</dataProcessors>
+  <dataProcessors>DataProcessor.КонсольЗаданий</dataProcessors>
+  <dataProcessors>DataProcessor.ИнструментыРазработчикаКонсольЗапросов</dataProcessors>
+  <informationRegisters>InformationRegister.ЗапросНаОтсутствие</informationRegisters>
+  <informationRegisters>InformationRegister.ОтслеживаниеСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.РегламентированныйПроизводственныйКалендарь</informationRegisters>
+  <informationRegisters>InformationRegister.СотрудникиСПравомУтвержденияСобственныхЗаявок</informationRegisters>
+  <informationRegisters>InformationRegister.УчетРабочегоВремени</informationRegisters>
+  <externalDataSources>ExternalDataSource.ГолденГэйт</externalDataSources>
+  <externalDataSources>ExternalDataSource.Шелни</externalDataSources>
+</mdclass:Configuration>

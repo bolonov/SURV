@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6bb089b-de8b-4885-812a-8a6400cdb62c">
+  <producedTypes>
+    <managerType typeId="4b912fb1-83a0-4f37-b7a9-d1c5ce68cc3d" valueTypeId="a258c24d-e77d-41cd-8665-81bda77c5878"/>
+    <valueManagerType typeId="9456c35d-f859-411c-b053-df5664b7f07d" valueTypeId="ab553b3b-3215-4dea-89a9-0c9472ccbce5"/>
+  </producedTypes>
+  <name>ПериодСчитыванияДанныхИзСКУД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Период считывания данных из СКУД (мин.)</value>
+  </synonym>
+  <comment></comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <mask></mask>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
